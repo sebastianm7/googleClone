@@ -1,0 +1,172 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+html {
+    font-size: 62.5%;
+}
+header a {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+header {
+    width: 100%;
+    height: 60px;
+}
+header nav {
+    display: flex;
+    justify-content: flex-end;
+}
+header nav .nav-right-section {
+    width: 250px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+}
+nav .nav-right-section a {
+    margin: 10px;
+    
+}
+nav .nav-right-section .menu-icon {
+    background-image: url('https://static.thenounproject.com/png/756729-200.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 25px;
+    height: 25px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+nav .nav-right-section .profile-icon {
+    border-radius: 50%;
+    margin-left: 20px;
+    cursor: pointer;
+}
+main {
+    width: 100%;
+    height: 570px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+main .principal {
+    width: 100vw;
+    height: auto;
+    position: relative;
+    top: 60px;
+}
+main .principal .logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main .principal .main-searchbar {
+    margin-top: 25px;
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+}
+main .principal .main-searchbar .searchbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    vertical-align: middle;
+    border-radius: 30px;
+    width: 570px;
+    height: 45px;
+    border: 1px solid lightgray;
+    outline: none;
+}
+main .principal .buttons {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    
+}
+main .principal .main-searchbar .searchbar input {
+    border: none;
+    outline: none;
+    width: 480px;
+    margin-left: 10px;
+    
+}
+main .principal .buttons input{
+    width: 150px;
+    height: 40px;
+    color: #5f6368;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    margin-right: 20px;
+
+}
+main .principal .buttons input:hover {
+    box-shadow: 0 1px 6px 0 #20212447;
+}
+p {
+    color: darkslategrey;
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+}
+p a {
+    margin-left: 5px;
+    text-decoration: none;
+}
+main .principal .main-searchbar .searchbar:hover {
+    box-shadow: 0 1px 6px 0 #20212447;
+    border-color: #dfe1e500;
+
+}
+main .main-searchbar .searchbar .search-icon {
+    background-image: url('https://cdn0.iconfinder.com/data/icons/very-basic-2-android-l-lollipop-icon-pack/24/search-512.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 18px;
+    height: 18px;
+}
+main .main-searchbar .searchbar .micro-icon {
+    background-image: url('https://www.cuecamp.com/wp-content/uploads/2019/11/Google_mic.svg_.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 18px;
+    height: 18px;
+    cursor: pointer;
+}
+footer {
+    width: 100%;
+    height: 50px;
+    position: absolute;
+    bottom: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    font-size: 13px;
+    background-color: #f2f2f2;
+    border-top: 1px solid #e4e4e4;
+} 
+footer ul {
+    margin: 10px;
+    list-style-type: none;
+    display: flex;
+    padding-left: 0
+}
+footer .footer-left {
+    justify-self: left;
+}
+footer .footer-right {
+    justify-self: right;
+}
+footer ul li a {
+    margin: 10px;
+    color: #5f6368;
+    text-decoration: none;
+}
